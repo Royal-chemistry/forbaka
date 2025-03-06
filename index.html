@@ -1,0 +1,56 @@
+/cute-card │── index.html        # Main HTML file
+│── style.css         # CSS for styling
+│── script.js         # JavaScript for animations
+│── images/           # Folder for cute images
+│   │── heart.png
+│   │── teddy.png
+│   │── love-letter.png
+│── README.md         # Instructions for GitHub
+
+---
+---
+
+## 📜 Code  
+
+### **📌 index.html (Main File)**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>💖 Hi My Love, Aswathy! 💖</h1>
+        <p>Click the heart below to see something special!</p>
+        
+        <div class="heart-container" onclick="showMessage()">
+            <img src="images/heart.png" alt="Heart" class="heart">
+        </div>
+        
+        <div class="message">
+            <h2>💌 My Sweet Message 💌</h2>
+            <p>You are the most beautiful person in my life. I love you endlessly! 🥰</p>
+            <img src="images/love-letter.png" alt="Love Letter" class="love-img">
+        </div>
+        
+        <div class="more-cards">
+            <div class="card">
+                <img src="images/teddy.png" alt="Teddy Bear">
+                <p>You're my cuddly teddy bear! 🧸❤</p>
+            </div>
+            <div class="card">
+                <img src="images/heart.png" alt="Heart">
+                <p>My heart beats only for you! ❤</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
